@@ -1,6 +1,6 @@
 <?php 
 	include_once 'conexion.php';
-	$id = $_POST['id'];
+	$id = $_GET['id'];
 	$nombre = $_POST['nombre'];
 	$email = $_POST['correo'];
 	$telefono = $_POST['telefono'];

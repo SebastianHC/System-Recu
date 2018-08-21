@@ -1,6 +1,6 @@
 <?php 
 	include_once 'conexion.php';
-	$id_alu = $_GET['id'];
+	$id = $_GET['id'];
 	$sentencia = $bd -> prepare("DELETE FROM medicamentos WHERE id = ?");
 	$resultado = $sentencia -> execute([$id]);
 	if ($resultado) {

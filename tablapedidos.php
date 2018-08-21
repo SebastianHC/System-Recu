@@ -55,7 +55,7 @@
          
           
           echo "<td><a href='actclientes.php?id=".$row['id']."'>Actualizar</a></td>";
-          //echo "<td><a href='eliminar.php?id=".$row['id']."'>Eliminar</a></td></tr>";
+          echo "<td><a href='eliminarpedidos.php?id=".$row['id']."'>Eliminar</a></td></tr>";
         }
        ?>
 
