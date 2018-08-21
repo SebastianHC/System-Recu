@@ -1,0 +1,3 @@
+dbName: base_de_datos_cai
+dbUserName: caiupv
+dbPass: 1234567
